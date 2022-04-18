@@ -4,7 +4,7 @@ import re
 #lista = []
 
 def requestGet(response):
-    global lista
+    #global lista
 
     content_response = response.content.decode("utf-8")
 
